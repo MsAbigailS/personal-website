@@ -1,0 +1,25 @@
+.container{
+    background: rgb(116, 116, 179);
+    display: grid;
+    grid-template-columns: auto(4, repeat);
+    left: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    position: fixed;
+}
+
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link:hover{
+    background: rgb(74, 74, 109);
+    transition: 0.2s ease-out;
+}

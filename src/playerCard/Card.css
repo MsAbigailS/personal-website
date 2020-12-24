@@ -1,0 +1,46 @@
+.card-background{
+    -webkit-box-shadow: 9px 9px 0px 2px #24305e; 
+    box-shadow: 9px 9px 0px 2px #24305e;
+    background: #374785;
+    width: 80%;
+    max-width: 50%;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 10px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 25px;
+    letter-spacing: 4px;
+    word-spacing: 1.8px;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+.player-name{
+    color: white;
+    text-align: left;
+    padding: 0px 0px 10px 20px;
+    font-size: 45px;
+    font-weight: 550;
+}
+
+.player-traits{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10%;
+    padding-top: 20px;
+}
+
+
+.card-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+}
+
+.avatar{
+    max-width: 100%;
+}

@@ -1,22 +1,30 @@
 import logo from './logo.svg';
 import './App.css';
+import Card from './playerCard/Card';
+import RecipeDeck from './recipeDeck/RecipeDeck';
+import Navbar from './mainPage/NavBar/Navbar';
+import HomePage from './mainPage/HomePage/HomePage';
+import EducationTimeline from './education/EducationTimeline';
+import Button from './button/Button';
+import ProjectCard from './project/ProjectCard';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+          <div className="top-of-page">
+            
+            <h2 className="title">
+              Welcome
+            </h2>
+            
+            <Button/>
+          </div>
+          
+          <h2>Education</h2>
+          <EducationTimeline/>
+          <h2>Projects</h2>
+          <ProjectCard/>
       </header>
     </div>
   );

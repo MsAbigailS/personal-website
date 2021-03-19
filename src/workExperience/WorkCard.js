@@ -1,14 +1,15 @@
 import React from 'react';
 import timelineData from './data';
-import TimelineItem from './TimelineItem';
+import TimelineItem from './WorkItem';
+import './WorkCard.css';
 
-const EducationTimeline = () =>
+const WorkCard = () =>
     timelineData.length > 0 && (
-        <div className="education-layout">
+        <div className="work-container">
             {timelineData.map((data, idx) => (
                 <TimelineItem data={data} key={idx} />
             ))}
         </div>
     );
 
-export default EducationTimeline; 
+export default WorkCard; 

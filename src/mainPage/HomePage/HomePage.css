@@ -1,6 +1,6 @@
 .home-layout{
     display: grid;
-    grid-template-rows: 1fr 2fr;
+    /* grid-template-rows: 1fr 2fr; */
     grid-gap: 10px;
 }
 
@@ -16,3 +16,8 @@ h1{
     100% { bottom: 0; opacity: 1; }
 }
 
+@media (max-width: 768px) {
+    .home-layout {
+      grid-template-rows: 3fr 1fr;
+    }
+  }

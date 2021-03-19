@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './RecipeDeck.css';
 import RecipeCard from './RecipeCard';
 
 class RecipeDeck extends Component{
@@ -9,10 +8,12 @@ class RecipeDeck extends Component{
                 <RecipeCard 
                     name="Iced Coffee" 
                     time='10'
+                    description="A simple, chilled boost!"
                 />
                 <RecipeCard
                     name="The Greatest Breakfast Burritos"
                     time='45'
+                    description="The best breakfast burrito you'll ever have."
                 />
             </div>
         )

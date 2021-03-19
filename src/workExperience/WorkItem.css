@@ -1,0 +1,75 @@
+.title{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    align-items: left;
+}
+
+time{
+    font-size: calc(1px + 2vmin);
+}
+
+.work-item{
+    color: black;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 50px;
+}
+
+.work-content{
+    background-color: white;
+    border-radius: 25px;
+    z-index: 1;
+    border-style: solid;
+    border-color:  #B1A296;
+    border-width: 5px;
+    padding-bottom: calc(12px + 2vmin);
+}
+
+.employeer-information{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    z-index: 1;
+    border-radius: 25px;
+    font-size: calc(2px + 2vmin);
+    padding-left: calc(15px + 2vmin);
+    padding-top: calc(10px + 2vmin);
+    padding-bottom: calc(10px + 2vmin);
+    font-weight: bold;
+    line-height: 0;
+    border-style: solid;
+    border-color:  #B1A296;
+    border-width: 5px;
+}
+
+.company-name{
+    font-size: 50px;
+    /* margin-left: -calc(20px + 2vmin); */
+}
+
+h5{
+}
+
+.position-description{
+    font-size: calc(5px + 2vmin);
+    text-align: left;
+    padding-top: 2vh;
+    padding-right: 2vw;
+    padding-left: 1.55vw;
+    font-size: calc(5px + 2vmin);
+    border-left-style: solid;
+    border-left-color: black;
+    border-left-width: 2px;
+    
+}
+
+/* .work-item::before {
+    background-color: #B1A296;
+    content: '';
+    position: absolute;
+    left: calc(50% - 2px);
+    width: 5px;
+    height: 45%;
+    z-index: 0;
+  } */

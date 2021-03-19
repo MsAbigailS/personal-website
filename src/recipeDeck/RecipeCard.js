@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './RecipeCard.css';
 
 class RecipeCard extends Component{
     constructor(){
@@ -8,7 +7,8 @@ class RecipeCard extends Component{
         this.state = {
             name: "",
             time: 0,
-            flipped: false
+            flipped: false,
+            description: ""
         };
 
     };
@@ -17,27 +17,36 @@ class RecipeCard extends Component{
     render(){
         let {name} = this.props;
         let {time} = this.props;
+        let {description} = this.props;
         
         return(
-            <div className="card-content">
-                <div className="recipe-image">
-                    IMAGE
+            <div className="information-card">
+                <div className="more-container">
+                    <div className="content">
+                        <button className="btn">
+                            Learn More
+                        </button>
+                    </div>
                 </div>
+                <div className="informations-container">
+                    <div className="title">
+                        {name}
+                    </div>
+                    <div className="sub-title">
+                        {description}
+                    </div>
+                    <div className="time">
+                        {time} minutes
+                    </div>
+                    <div className="more-information">
+                        <div className="info-and-date-container">
+                            <div className="box info">
+                                <div className="icon">
 
-                <div className="name">
-                    {name}
-                </div>
-
-                <div className="time">
-                    {time}
-                </div>
-
-                <div className="ingredients">
-                    INGREDIENTS
-                </div>
-
-                <div className="steps">
-                    STEPS
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         )

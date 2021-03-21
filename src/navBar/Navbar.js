@@ -5,15 +5,18 @@ class Navbar extends Component{
     render(){
         return(
             <div className="navbar-container">
-                <div className="button-container">
-                    <div className="nav-button">
-                        <button/>
-                    </div>
-                </div>
-                <div className="progress-buttons">
-                    progress buttons
-                </div>
-                Navbar placement
+                <a href="#top-page">
+                    <div className="navButton"></div>
+                </a>
+                <a href="#second">
+                     <div className="navButton"></div>
+                </a>
+                <a href="#third">
+                    <div className="navButton"></div>
+                </a>
+                <a href="#fourth">
+                    <div className="navButton"></div>
+                </a>
             </div>
         )
     }

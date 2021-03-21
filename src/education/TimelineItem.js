@@ -4,9 +4,11 @@ const TimelineItem = ({ data }) => (
     style={{backgroundImage: `url(${data.backgroundURL})`}}>
                 <div className="more-container">
                     <div className="content">
-                        <button className="btn">
-                            Learn More
-                        </button>
+                        <a href={data.link.url} target="_blank">
+                            <button className="btn">
+                                Learn More
+                            </button>
+                        </a>
                     </div>
                 </div>
                 <div className="informations-container">
@@ -25,37 +27,12 @@ const TimelineItem = ({ data }) => (
                             <div className="box info">
                             {data.description}
                                 <div className="icon">
-                                   
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-    // NOTE Working Education Timeline
-    // <div className="timeline-item">
-    //     <div className="timeline-item-content">
-    //         <span className="tag" style={{ background: data.category.color }}>
-    //             {data.category.tag}
-    //         </span>
-    //         <time>{data.date}</time>
-    //         {/* <p>{data.text}</p> */}
-    //         {data.link && (
-    //             <a
-    //                 href={data.link.url}
-    //                 target="_blank"
-    //                 rel="noopener noreferrer"
-    //             >
-    //                 {data.text}
-    //             </a>
-    //         )}
-    //         <p className="description">
-    //             {data.description}
-    //         </p>
-    //         <span className="circle" />
-    //     </div>
-    // </div>
 );
 
 export default TimelineItem;

@@ -2,6 +2,9 @@
 // Each card on the education timeline comes from the array below
 import CalcsendLogo from '../images/calcsendLogo.png';
 import TemporaryLogo from '../images/temporaryLogo.png';
+import UnixIcon from '../images/unix2.png';
+import Mars from '../images/mars3.png';
+import PersonalIcon from '../images/personalweb.png';
 import React from 'react';
 const data = [
     {
@@ -16,54 +19,70 @@ const data = [
         link: {
             url:
                 "https://github.com/MsAbigailS/CalcSend",
-            text: "Github"
+            text: "See project"
         }
     },
     {
-        text: "Color Generator",
-        date: "TEMP",
-        description: "THIS IS WHERE THE DESCRIPTION FOR MY SUPER AWESOME, AWESOME DESCRIPTION WILL BE.",
-        image: TemporaryLogo,
+        text: "MIPS File Input and Manipulation",
+        date: "Start date - End date",
+        description: "A collaborative project under The Association of Computing Machinery. CalcSend acts as an advanced mathematics calculator with clear front-end accessibility and Wolfram Alpha API services. I was both part of the front- and back-end team.",
+        image: Mars,
         category: {
-            tag: "TYPE",
-            color: "#CAE2BC"
+            tag: "Academic",
+            color: "#E6BEAE"
         },
         link: {
             url:
-                "TEMP",
-            text: "TEMP"
+                "https://github.com/MsAbigailS/CalcSend",
+            text: "See project"
         }
     },
     {
-        text: "DeepLens AI",
-        date: "TEMP2",
-        description: "THIS IS WHERE THE DESCRIPTION FOR ANOTHER ONE OF MY SUPER AWESOME PROJECTS WILL BE!",
-        image: TemporaryLogo,
+        text: "UNIX Makefile and Gawk",
+        date: "Start date - End date",
+        description: "A collaborative project under The Association of Computing Machinery. CalcSend acts as an advanced mathematics calculator with clear front-end accessibility and Wolfram Alpha API services. I was both part of the front- and back-end team.",
+        image: UnixIcon,
         category: {
-            tag: "TYPE",
-            color: "#CAE2BC"
+            tag: "Academic",
+            color: "#E6BEAE"
         },
         link: {
             url:
-                "TEMP2",
-            text: "TEMP2"
+                "https://github.com/MsAbigailS/CalcSend",
+            text: "See project"
         }
     },
     {
-        text: "Art Docent",
-        date: "TEMP2",
-        description: "THIS IS WHERE THE DESCRIPTION FOR ANOTHER ONE OF MY SUPER AWESOME PROJECTS WILL BE! I WANT TO MAKE SURE TO EXPLAIN THAT A DOCENT IS SOMEONE THAT ACTS AS A GUIDE. TRY TO DO SOMETHING CLEVER HERE!",
-        image: TemporaryLogo,
+        text: "UNIX Tarball with File Manipulation",
+        date: "Start date - End date",
+        description: "A collaborative project under The Association of Computing Machinery. CalcSend acts as an advanced mathematics calculator with clear front-end accessibility and Wolfram Alpha API services. I was both part of the front- and back-end team.",
+        image: UnixIcon,
         category: {
-            tag: "TYPE",
-            color: "#CAE2BC"
+            tag: "Academic",
+            color: "#E6BEAE"
         },
         link: {
             url:
-                "TEMP2",
-            text: "TEMP2"
+                "https://github.com/MsAbigailS/CalcSend",
+            text: "See project"
+        }
+    },
+    {
+        text: "Personal Website",
+        date: "Start date - End date",
+        description: "A collaborative project under The Association of Computing Machinery. CalcSend acts as an advanced mathematics calculator with clear front-end accessibility and Wolfram Alpha API services. I was both part of the front- and back-end team.",
+        image: PersonalIcon,
+        category: {
+            tag: "Personal",
+            color: "#E6BEAE"
+        },
+        link: {
+            url:
+                "https://github.com/MsAbigailS/CalcSend",
+            text: "See project"
         }
     }
+    
 ];
 
 export default data;

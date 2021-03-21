@@ -4,7 +4,7 @@
 import React from 'react';
 const data = [
     {
-        backgroundURL: "https://www.utdallas.edu/enroll/files/current-students.jpg",
+        backgroundURL: "https://enroll.utdallas.edu/files/prospective-freshmen-wide.jpg",
         text: "Academic Excellence Scholarship",
         date: "Dec 15, 2019",
         description: "I was awarded the selective Academic Excellence Scholarship (AES) based on my high school academic accomplishments, community involvement, leadership, distinction in extracurricular activities, and work experience.",
@@ -34,7 +34,7 @@ const data = [
         }
     },
     {
-        backgroundURL: "https://d2q79iu7y748jz.cloudfront.net/s/_squarelogo/347ce4b2a0f178dd8687ae2a47672203",
+        backgroundURL: "https://media-exp1.licdn.com/dms/image/C4E1BAQESsYKpD2giAg/company-background_10000/0/1545159143732?e=2159024400&v=beta&t=5WALs4hWnJVwj4BcI87hm9V_A1IC00GJMWXjggi-Sd4",
         text: "The University of Texas at Dallas",
         date: "Aug 15 2020",
         description: "I began my first semester at UTD! I enrolled in the Erik Jonsson School of Engineering and Computer Science in pursuit of a degree in both computer science and software engineering.",
@@ -49,7 +49,7 @@ const data = [
         }
     },
     {
-        backgroundURL: "https://www.acm.org/binaries/content/gallery/acm/ctas/ambassadors-for-acm.jpg/ambassadors-for-acm.jpg/acm%3Adesktopcta",
+        backgroundURL: "https://acm.org.uiowa.edu/sites/acm.org.uiowa.edu/files/styles/featured_slider/public/featured_slider/acm_0.gif?itok=VV_J6N5P",
         text: "Association of Computing Machinery, Projects Division",
         date: "Sep 9, 2020",
         description: "I was accepted into the Project's Division of ACM! With four other team members, I worked to create CalcSend -- my first website that features both a front-end in Javascript React and back-end with API calls to Wolfram Alpha.",
